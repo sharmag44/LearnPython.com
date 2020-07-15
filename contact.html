@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style-contact.css" />
+  </head>
+
+  <body>
+    <button class="btn btn-info">
+      <a href="index.html" class="back"> Back to Home</a>
+    </button>
+    <br />
+    <br />
+    <br />
+    <center><h3>Contact Form</h3></center>
+    <form action="mailto:sharmagshambhu44@gmail.com" method="post" enctype="text/plain">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Enter a Name"
+          id="name"
+          name="Name"
+        />
+        <label for="email">Email address:</label>
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Enter email"
+          id="email"
+          name="Email address"
+        />
+        <div class="form-group">
+          <label for="number">Contact NO:</label>
+          <input
+            type="telr"
+            class="form-control"
+            placeholder="Enter a Moblie Number"
+            name="Contact NO"
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="comments">Comments</label>
+        <textarea id="comments" class="form-control" name="CO'"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </body>
+</html>

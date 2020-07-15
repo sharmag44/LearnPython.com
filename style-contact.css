@@ -1,0 +1,20 @@
+body {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif, "Open Sans", sans-serif;
+}
+.back {
+  color: aliceblue;
+}
+h3 {
+  font-weight: bolder;
+  text-shadow: aquamarine 3px 2px;
+}
+h3:hover {
+  font-weight: bolder;
+  text-shadow: red 3px 2px;
+}
+@media screen and(max-width:550px) {
+  body {
+    width: 100%;
+  }
+}

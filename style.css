@@ -1,0 +1,169 @@
+body {
+  font-family: 'Merriweather', serif;
+  color: #000;
+  font-size: 27px;
+}
+img:hover {
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+h2,h3{
+font-family: 'Sacramento', cursive;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+.carousel-item {
+  width: 100%;
+  height:auto;
+}
+.navbar-brand {
+  font-size: 155%;
+}
+.navbar-brand:hover {
+  columns: #000000;
+}
+.search {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.search:active {
+  border: 3px solid maroon;
+}
+.search-btn {
+  border-radius: 5px;
+  width: 30px;
+  margin-left: -60px;
+  text-align: center;
+}
+
+#image {
+  height: 100px;
+  width: 100px;
+  margin: 20px 20px 20px 70px;
+}
+h4 {
+  color: aliceblue;
+  margin: 10px 0 0 10px;
+  font-weight: bolder;
+  font-size: 200%;
+}
+section::first-letter {
+  font-size: 250%;
+}
+#details{
+  padding:2% 0;
+}
+#detail {
+  margin: 10px;
+  line-height: 25px;
+  overflow: visible;
+  height: autopx;
+}
+
+#video {
+  margin: 30px 0 40px 50px;
+  box-shadow: 3px 0 -3px 0 maroon;
+}
+.center:hover {
+  text-shadow: darkorange 2px 2px;
+}
+label,
+input[type="email"],
+input[type="submit"] {
+  position: relative;
+  border-radius: 5px;
+}
+input[type="email"]:hover {
+  border: 2px solid red;
+}
+input[type="submit"]:hover {
+  background-color: green;
+}
+.founder {
+  text-align: center;
+}
+.founder:hover {
+  text-shadow: forestgreen 2px 2px;
+}
+.img {
+  float: left;
+  width: auto;
+  height: auto;
+}
+.img:hover {
+  opacity: 0.8;
+  box-shadow: 2px 2px aliceblue;
+}
+h3 {
+  font-weight: bolder;
+}
+.creator-data {
+  margin-left: 250px;
+}
+.apps {
+  margin: 1px 0 0 0;
+  text-align: center;
+  transition: 1s;
+}
+.apps:hover {
+  background-color: maroon;
+}
+.netflix {
+  width: 150px;
+  height: 150px;
+}
+.h3 {
+  margin-left: 30px;
+}
+.h-1 {
+  margin-left: 8px;
+}
+.h4 {
+  margin-left: 63px;
+}
+footer {
+  margin: 10px 0 10px 100px;
+}
+
+.fab fa-facebook {
+  font-size: 48px;
+}
+.fab fa-twitter {
+  font-size: 48px;
+}
+.fab fa-youtube {
+  font-size: 48px;
+}
+@media only screen and (max-width: 550px) {
+  body {
+    width: 100%;
+  }
+  #code {
+    width: 100%;
+  }
+  .apps {
+    margin: 0px 0 20px 0;
+  }
+  #video {
+    margin: 500px 5px 0 5px;
+    width: 95%;
+  }
+  .center {
+    text-align: center;
+  }
+  .img {
+    text-align: center;
+    margin-left: 100px;
+  }
+  .creator-data {
+    margin: 50px -50px 0 20px;
+  }
+}
